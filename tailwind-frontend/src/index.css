@@ -5,7 +5,7 @@
 ** custom design tokens i.e fonts, colors and breakpoints 
 */
 @theme {
-  --project-bg: #FDFFFC;
+  --project-bg: #B91372;
 }
 
 
@@ -15,14 +15,18 @@
 
 ** It has 3 types base, utilities and component
 */
-@layer base{
+/* @layer base{
   body{
     background: var(--project-bg);
   }
-}
+} */
 
 
 
 .cardbtn{
-  @apply bg-amber-500 border border-amber-500 w-20 p-30 m-40
+  @apply bg-amber-500 border border-amber-500 w-20 p-30 m-40;
+}
+
+.bg-body{
+  @apply bg-[#0d1a2d] w-screen h-screen;
 }
