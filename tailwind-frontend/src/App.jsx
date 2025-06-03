@@ -2,7 +2,7 @@ import React from 'react'
 
 const App = () => {
   return (
-    <div className='text-[60px] text-teal-900'>App</div>
+    <div className='cardbtn text-white font-bold text-3xl flex items-center justify-center'>App</div>
   )
 }
 

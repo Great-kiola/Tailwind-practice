@@ -1,12 +1,28 @@
 @import "tailwindcss";
 
 
+/* @theme is used to define the projects
+** custom design tokens i.e fonts, colors and breakpoints 
+*/
 @theme {
   --project-bg: #FDFFFC;
 }
 
+
+/* @layer any classes defined with
+** layer would be picked up by tailwind as a true utility class and would automatically 
+** work with variants like hover, focus or lg
+
+** It has 3 types base, utilities and component
+*/
 @layer base{
   body{
     background: var(--project-bg);
   }
+}
+
+
+
+.cardbtn{
+  @apply bg-amber-500 border border-amber-500 w-20 p-30 m-40
 }
