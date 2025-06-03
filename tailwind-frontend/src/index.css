@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+
+@theme {
+  --project-bg: #FDFFFC;
+}
+
+@layer base{
+  body{
+    background: var(--project-bg);
+  }
+}
