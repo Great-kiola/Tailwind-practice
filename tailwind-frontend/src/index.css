@@ -8,6 +8,14 @@
 @theme {
   --project-bg: #B91372;
   --font-family: "Poppins", sans-serif;
+
+
+  --Paleblue: hsl(225, 100%, 94%);
+  --Brightblue: hsl(245, 75%, 52%);
+
+  --Very pale blue: hsl(225, 100%, 98%);
+  --Desaturated blue: hsl(224, 23%, 55%);
+  --Dark blue: hsl(223, 47%, 23%);
 }
 
 
@@ -24,10 +32,12 @@
   }
 }
 
-
+.orderBody{
+  background-color: var(--Paleblue);
+}
 
 .cardbtn{
-  @apply bg-amber-500 border border-amber-500 w-20 p-30 m-40;
+  @apply bg-amber-500 border border-amber-500 w-20 p-30;
 }
 
 .bg-body{
