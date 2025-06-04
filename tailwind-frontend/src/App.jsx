@@ -1,8 +1,14 @@
 import React from 'react'
+// import Nftpreview from "./components/Nftpreview"
+import OrderSummary from './components/OrderSummary'
+
 
 const App = () => {
   return (
-    <div className=''>App</div>
+    <div>
+      <OrderSummary />
+      {/* <Nftpreview /> */}
+    </div>
   )
 }
 
