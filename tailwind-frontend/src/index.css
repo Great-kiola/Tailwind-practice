@@ -13,7 +13,7 @@
   --Paleblue: hsl(225, 100%, 94%);
   --Brightblue: hsl(245, 75%, 52%);
 
-  --Very pale blue: hsl(225, 100%, 98%);
+  --VeryPaleBlue: hsl(225, 100%, 98%);
   --Desaturated blue: hsl(224, 23%, 55%);
   --Dark blue: hsl(223, 47%, 23%);
 }
@@ -30,6 +30,11 @@
     background: var(--project-bg);
     font-family: var(--font-family)
   }
+
+  .cardColor{
+    background-color: var(--VeryPaleBlue);
+    padding: 100px;
+  }
 }
 
 .orderBody{
@@ -43,3 +48,6 @@
 .bg-body{
   @apply bg-[#0d1a2d] w-screen h-screen;
 }
+
+
+
