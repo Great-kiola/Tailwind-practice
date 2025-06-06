@@ -33,7 +33,7 @@
 
   .cardColor{
     background-color: var(--VeryPaleBlue);
-    padding: 100px;
+    /* padding: 100px; */
   }
 }
 
