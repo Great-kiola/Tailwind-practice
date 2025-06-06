@@ -1,11 +1,11 @@
 import React from "react";
 import dancer from "../assets/orderAssets/illustration-hero.svg";
 import icon from "../assets/orderAssets/icon-music.svg";
-// import bgImage from "../assets/orderAssets/pattern-background-desktop.svg"
+import bgImage from "../assets/orderAssets/pattern-background-desktop.svg"
 
 const OrderSummary = () => {
   return (
-    <div className='bg-Paleblue h-screen flex items-center justify-center bg-[url("../assets/orderAssets/pattern-background-desktop.svg")]'>
+    <div className='bg-Paleblue h-screen flex items-center justify-center' style={{ backgroundImage: `url(${bgImage})` }}>
       <div className="rounded-3xl bg-white w-100 shadow-desaturatedBlue shadow-2xl/50">
         <img className="rounded-t-3xl mb-3" src={dancer} alt="image svg" />
 
