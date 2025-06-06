@@ -4,7 +4,7 @@ import icon from "../assets/orderAssets/icon-music.svg"
 
 const OrderSummary = () => {
   return (
-    <div className='orderBody h-screen flex items-center justify-center'>
+    <div className='bg-Paleblue h-screen flex items-center justify-center'>
       <div className='rounded-3xl bg-white w-100'>
         <img className='rounded-t-3xl mb-3' src={dancer} alt="image svg" />
 
@@ -17,7 +17,7 @@ const OrderSummary = () => {
             </p>
           </div>
 
-          <div className='mt-6 p-5 bg-amber-100 rounded-2xl flex flex-col-1 justify-between items-center'>
+          <div className='mt-6 p-5 bg-VeryPaleBlue rounded-2xl flex flex-col-1 justify-between items-center'>
             <img src={icon} alt="" />
 
             <div>
