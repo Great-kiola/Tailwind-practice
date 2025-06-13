@@ -2,8 +2,13 @@ import React from 'react'
 
 const AssetsPreview = () => {
   return <>
-    <div>AssetsPreview</div>
-    <h1>Frontend mentor practice challenge</h1>
+    <div className='bg-Brightblue h-screen flex items-center justify-center'>
+
+      <div className='w-120 bg-amber-200 p-10 text-amber-600 flex justify-center rounded-xl h-150'>
+        <h1 className=''>Frontend mentor practice challenge</h1>
+      </div>
+
+    </div>
   </>
 }
 
