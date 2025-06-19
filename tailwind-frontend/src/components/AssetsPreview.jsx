@@ -8,7 +8,10 @@ const AssetsPreview = () => {
         <h1 className='font-bold text-xl'>Frontend mentor practice challenge</h1>
       </div>
 
-      <h1>Standard <Element></Element></h1>
+      <h1>Standard element</h1>
+      <h2>Standard element</h2>
+      <h3>Standard element</h3>
+      <h4>Standard element</h4>
     </div>
   </>
 }
