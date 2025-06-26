@@ -1,13 +1,15 @@
 import React from 'react'
 // import Nftpreview from "./components/Nftpreview"
 import OrderSummary from './components/OrderSummary'
-import AssetsPreview from './components/AssetsPreview'
+import RatingComponrt  from './components/RatingCo'
+
+import RatingComponent from "./components/RatingComponent"
 
 
 const App = () => {
   return (
     <div>
-      <AssetsPreview />
+      <RatingComponent />
       {/* <OrderSummary /> */}
       {/* <Nftpreview /> */}
     </div>
