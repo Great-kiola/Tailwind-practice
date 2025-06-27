@@ -16,6 +16,9 @@
   --color-VeryPaleBlue: hsl(225, 100%, 98%);
   --color-desaturatedBlue: hsl(224, 23%, 55%);
   --color-DarkBlue: hsl(223, 47%, 23%);
+
+
+  --rating-comp-background: hsl(25, 97%, 53%);
 }
 
 
