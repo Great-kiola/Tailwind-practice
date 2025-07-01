@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import "tailwindcss";
 
 
@@ -8,6 +10,8 @@
 @theme {
   --project-bg: #B91372;
   --font-family: "Poppins", sans-serif;
+  --font-overpass: "Overpass", sans-serif;
+
 
 
   --color-Paleblue: hsl(225, 100%, 94%);
@@ -18,7 +22,13 @@
   --color-DarkBlue: hsl(223, 47%, 23%);
 
 
-  --rating-comp-background: hsl(25, 97%, 53%);
+  --color-rating-orange: hsl(25, 97%, 53%);
+  --rating-comp-bg: #141519;
+
+  --color-rating-dark: hsl(216, 12%, 8%) ;
+  --color-rating-500: hsl(217, 12%, 63%) ;
+  --color-rating-light: hsl(213, 19%, 18%);
+
 }
 
 
@@ -40,6 +50,10 @@
   }
 }
 
+.ratingBackground {
+  background: var(--rating-comp-bg);
+}
+
 .orderBody{
   background-color: var(--Paleblue);
 }
@@ -52,5 +66,8 @@
   @apply bg-[#0d1a2d] w-screen h-screen;
 }
 
+.rating-numbers {
+  @apply text-gray-500 size-12 bg-gray-700 flex items-center justify-center rounded-full p-5 hover:cursor-pointer hover:bg-gray-400 hover:text-white
+}
 
 
