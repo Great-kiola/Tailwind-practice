@@ -29,6 +29,12 @@
   --color-rating-500: hsl(217, 12%, 63%) ;
   --color-rating-light: hsl(213, 19%, 18%);
 
+  
+  /* Product Preview */
+  --color-cream: hsl(30, 38%, 92%);
+  --color-Green-500: hsl(158, 36%, 37%);
+  --color-Green-700: hsl(158, 42%, 18%)
+
 }
 
 
