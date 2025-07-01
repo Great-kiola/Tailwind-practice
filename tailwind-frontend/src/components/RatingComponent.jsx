@@ -6,7 +6,7 @@ const RatingComponent = () => {
   return <>
     <div className='ratingBackground h-screen flex items-center justify-center font-overpass'>
 
-      <div className='w-110 bg-linear-to-t from-rating-dark to-rating-light p-10 rounded-2xl'>
+      <div className='w-120 bg-linear-to-t from-rating-dark to-rating-light p-10 rounded-2xl'>
 
 
         <div className='rounded-full bg-gray-700 flex size-14 justify-center items-center'>
