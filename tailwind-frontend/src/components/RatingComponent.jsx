@@ -13,7 +13,7 @@ const RatingComponent = () => {
           <FaStar className='text-rating-orange size-5' />
         </div>
 
-        <h1 className='text-white text-2xl mt-5'>How did we do?</h1>
+        <h1 className='text-white text-2xl mt-5 font-semibold'>How did we do?</h1>
         <p className='text-gray-500 my-4 text-md '> Please let us know how we did with your support request. All feedback
           is appreciated to help us improve our offering!
         </p>
