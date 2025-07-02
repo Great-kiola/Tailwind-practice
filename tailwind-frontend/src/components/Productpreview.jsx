@@ -17,7 +17,7 @@ const Productpreview = () => {
                     <p className='uppercase tracking-[0.5rem]'>Perfume</p>
                     <h1 className='text-5xl font-fraunces font-extrabold my-7'>Gabrielle Essence Eau De Parfum</h1>
 
-                    <p className='text-prod-grey my-5 text-lg'>
+                    <p className='text-prod-grey my-5 text-md'>
                         A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.
                     </p>
 
