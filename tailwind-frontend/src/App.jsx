@@ -3,12 +3,14 @@ import React from 'react'
 import OrderSummary from './components/OrderSummary'
 import RatingComponent from "./components/RatingComponent"
 import Productpreview from './components/Productpreview'
+import FaqAccordion from './components/FaqAccordion'
 
 
 const App = () => {
   return (
     <div>
-      <Productpreview />
+      <FaqAccordion />
+      {/* <Productpreview /> */}
       {/* <RatingComponent /> */}
       {/* <OrderSummary /> */}
       {/* <Nftpreview /> */}
