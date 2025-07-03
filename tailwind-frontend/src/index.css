@@ -38,6 +38,13 @@
   --color-Green-dark: hsl(158, 42%, 18%);
   --color-prod-grey: hsl(228, 12%, 48%);
 
+  /* Social Links */
+  --color-greenLinks: hsl(75, 94%, 57%);
+  --color-WhiteLinks: hsl(0, 0%, 100%);
+  --color-Grey-700: hsl(0, 0%, 20%);
+  --color-Grey-800: hsl(0, 0%, 12%);
+  --color-Grey-900: hsl(0, 0%, 8%);
+
 }
 
 
