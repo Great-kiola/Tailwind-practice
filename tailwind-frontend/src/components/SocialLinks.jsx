@@ -11,7 +11,13 @@ const SocialLinks = () => {
             <img src={jessica} alt="" className='rounded-full w-20 my-5' />
             <h1 className='text-xl text-WhiteLinks'>Jessica Randall</h1>
             <p className='text-greenLinks'>London, United Kingdom</p>
+
+            <p className='text-gray-500 my-5'>"Front-end developer and avid reader"</p>
+
+
+            <h1>Github</h1>
           </div>
+
         </div>
 
     </section>
