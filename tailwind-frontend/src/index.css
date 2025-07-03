@@ -86,4 +86,7 @@
   @apply text-gray-500 size-16 bg-gray-700 flex items-center justify-center rounded-full p-5 hover:cursor-pointer hover:bg-gray-400 hover:text-white text-lg
 }
 
+.links{
+  @apply text-white bg-Grey-700 grid place-content-center rounded-md py-3 my-3 w-80 hover:bg-greenLinks hover:text-black transition-all
 
+}
