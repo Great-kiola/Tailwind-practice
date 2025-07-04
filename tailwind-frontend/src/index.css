@@ -88,5 +88,8 @@
 
 .links{
   @apply text-white bg-Grey-700 grid place-content-center rounded-md py-3 my-3 w-80 hover:bg-greenLinks hover:text-black transition-all
+}
 
+.buttonSpan {
+  @app
 }
