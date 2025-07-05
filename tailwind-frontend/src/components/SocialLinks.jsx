@@ -17,7 +17,6 @@ const SocialLinks = () => {
 
           <div className='grid place-content-center mb-5'>
 
-
             <button class="relative overflow-hidden font-medium transition-all bg-Grey-700 rounded group h-12 my-2">
               <span class="buttonSpan"></span>
               <a href="https://x.com" target='_blank' className='links'>Github</a>
@@ -28,7 +27,7 @@ const SocialLinks = () => {
               <a href="https://x.com" target='_blank' className='links'>Frontend Mentor</a>
             </button>
 
-            <button class="relative overflow-hidden font-medium transition-all bg-Grey-700 rounded group h-12 my-2">
+            <button class="relative overflow-hidden font-medium transition-all bg-Grey-700 rounded group h-12 my-2 w-80">
               <span class="buttonSpan"></span>
               <a href="https://x.com" target='_blank' className='links'>LinkedIn</a>
             </button>
@@ -36,6 +35,11 @@ const SocialLinks = () => {
             <button class="relative overflow-hidden font-medium transition-all bg-Grey-700 rounded group h-12 my-2 hover:text-black">
               <span class="buttonSpan"></span>
               <a href="https://x.com" target='_blank' className='links'>Twitter</a>
+            </button>
+
+            <button class="relative overflow-hidden font-medium transition-all bg-Grey-700 rounded group h-12 my-2 hover:text-black">
+              <span class="buttonSpan"></span>
+              <a href="https://x.com" target='_blank' className='links'>Instagram</a>
             </button>
 
 
