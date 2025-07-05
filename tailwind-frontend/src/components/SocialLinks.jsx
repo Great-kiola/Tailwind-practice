@@ -18,30 +18,26 @@ const SocialLinks = () => {
           <div className='grid place-content-center mb-5'>
 
 
-            <button class="relative overflow-hidden font-medium transition-all bg-Grey-700 rounded group h-10">
+            <button class="relative overflow-hidden font-medium transition-all bg-Grey-700 rounded group h-12 my-2">
               <span class="buttonSpan"></span>
               <a href="https://x.com" target='_blank' className='links'>Github</a>
             </button>
 
-            <button class="relative overflow-hidden font-medium transition-all bg-Grey-700 rounded group h-10">
+            <button class="relative overflow-hidden font-medium transition-all bg-Grey-700 rounded group h-12 my-2">
               <span class="buttonSpan"></span>
               <a href="https://x.com" target='_blank' className='links'>Frontend Mentor</a>
             </button>
 
-            <button class="relative overflow-hidden font-medium transition-all bg-Grey-700 rounded group h-10">
+            <button class="relative overflow-hidden font-medium transition-all bg-Grey-700 rounded group h-12 my-2">
               <span class="buttonSpan"></span>
               <a href="https://x.com" target='_blank' className='links'>LinkedIn</a>
             </button>
 
-            <button class="relative overflow-hidden font-medium transition-all bg-Grey-700 rounded group h-10">
+            <button class="relative overflow-hidden font-medium transition-all bg-Grey-700 rounded group h-12 my-2 hover:text-black">
               <span class="buttonSpan"></span>
               <a href="https://x.com" target='_blank' className='links'>Twitter</a>
             </button>
 
-            <button class="relative overflow-hidden font-medium transition-all bg-Grey-700 rounded group h-10">
-              <span class="buttonSpan"></span>
-              <a href="https://x.com" target='_blank' className="relative w-full text-left text-indigo-600 transition-colors duration-300 ease-in-out group-hover:text-white">Instagram</a>
-            </button>
 
           </div>
 
