@@ -7,9 +7,9 @@ const Productpreview = () => {
     return (
         <div className='bg-cream h-screen flex items-center justify-center lg:bg-cream'>
 
-            <div className='flex justify-center items-center w-200 h-150 bg-white rounded-2xl'>
+            <div className='flex justify-center items-center w-200  bg-white rounded-3xl'>
 
-                <div className='h-full w-320'>
+                <div className='w-300'>
                     <img className='rounded-l-3xl h-full' src={prodImage} alt="" />
                 </div>
 
@@ -27,7 +27,7 @@ const Productpreview = () => {
 
                     </div>
 
-                    <button className='bg-Green-light w-full text-white h-15 rounded-lg font-montserrat flex items-center justify-center gap-3 text-lg font-bold mt-10 hover:bg-Green-dark'>
+                    <button className='bg-Green-light w-full text-white h-15 rounded-lg font-montserrat flex items-center justify-center gap-3 text-lg font-bold mt-10 hover:bg-Green-dark my-10'>
                         <FaBasketShopping/>
                         Add to Cart
                     </button>

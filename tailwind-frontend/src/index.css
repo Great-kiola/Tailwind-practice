@@ -55,10 +55,10 @@
 ** It has 3 types base, utilities and component
 */
 @layer base{
-  body{
+  /* body{
     background: var(--project-bg);
     font-family: var(--font-family)
-  }
+  } */
 
   .cardColor{
     background-color: var(--VeryPaleBlue);
