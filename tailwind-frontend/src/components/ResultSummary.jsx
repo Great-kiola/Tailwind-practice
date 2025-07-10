@@ -8,12 +8,12 @@ const ResultSummary = () => {
     return (
         <>
             <div className='bg-Pale-blue h-screen flex items-center justify-center'>
-                <div className='h-150 w-200 rounded-4xl bg-White-resultSum flex'>
-                    <div className='bg-linear-to-t from-Light-royal-blue to-Light-slate-blue rounded-4xl flex items-center'>
+                <div className='h-150 w-200 rounded-4xl bg-White-resultSum flex '>
+                    <div className='bg-linear-to-t from-Light-royal-blue to-Light-slate-blue rounded-4xl flex items-center basis-sm'>
                         <h2>Your result</h2>
 
-                        <div className='rounded-full bg-linear-to-t from-Persian-blue to-Violet-blue size-50'>
-                            <h1>76</h1>
+                        <div className='rounded-full bg-linear-to-t from-Persian-blue to-Violet-blue'>
+                            <h1 className='text-White-resultSum font-bold text-4xl'>76</h1>
                             <p>of 100</p>
                         </div>
 
