@@ -25,7 +25,7 @@ const ResultSummary = () => {
                     <div className='p-10'>
                         <h1 className='text-xl font-bold'>Summary</h1>
 
-                        <div className='Summaries'>
+                        <div className=''>
                             <div className='bg-Light-red summaries '>
                                 <div className='flex items-center'>
                                     <HiOutlineLightningBolt />
