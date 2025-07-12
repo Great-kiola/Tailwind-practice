@@ -9,7 +9,8 @@ const ResultSummary = () => {
         <>
             <div className='bg-Pale-blue h-screen flex items-center justify-center'>
                 <div className='h-150 w-170 rounded-4xl bg-White-resultSum flex '>
-                    <div className='bg-linear-to-t from-Light-royal-blue to-Light-slate-blue rounded-4xl p-10'>
+
+                    <div className='bg-linear-to-t from-Light-royal-blue to-Light-slate-blue rounded-4xl p-10 '>
                         <h2 className='text-Light-lavender font-bold grid place-content-center text-2xl mb-10'>Your result</h2>
 
                         <div className='rounded-full bg-linear-to-t from-Persian-blue to-Violet-blue size-50 grid place-content-center'>
@@ -17,9 +18,10 @@ const ResultSummary = () => {
                             <p className='flex justify-center'>of 100</p>
                         </div>
 
-                        <h1 className=''>Great</h1>
-                        <h2>You scored higher than 65% of the people who have taken these tests.</h2>
+                        <h1 className='text-white grid place-content-center text-3xl font-bold font-hanken'>Great</h1>
+                        <h2 className='text-Light-lavender text-md'>You scored higher than 65% of the people who have taken these tests.</h2>
                     </div>
+
                     <div className='p-10'>
                         <h1 className='text-xl font-bold'>Summary</h1>
 
@@ -34,7 +36,7 @@ const ResultSummary = () => {
                             </div>
 
                             <div className='bg-orange-500 summaries'>
-                                <div>
+                                <div className='flex items-center'>
                                     <RiBrainLine />
 
                                     <h1>Memory</h1>
@@ -44,6 +46,7 @@ const ResultSummary = () => {
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </>
