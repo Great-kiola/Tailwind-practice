@@ -119,5 +119,5 @@
 
 /* Result Summary */
 .summaries{
-  @apply mb-5 flex items-center gap-20 p-5 rounded-xl
+  @apply mb-5 flex items-center gap-20 p-4 rounded-xl
 }
