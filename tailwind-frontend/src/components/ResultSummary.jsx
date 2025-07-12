@@ -8,7 +8,7 @@ const ResultSummary = () => {
     return (
         <>
             <div className='bg-Pale-blue h-screen flex items-center justify-center font-hanken'>
-                <div className='h-150 w-180 rounded-4xl bg-White-resultSum flex '>
+                <div className='h-130 w-180 rounded-4xl bg-White-resultSum flex '>
 
                     <div className='bg-linear-to-t from-Light-royal-blue to-Light-slate-blue rounded-4xl p-10 w-1/2'>
                         <h2 className='text-Light-lavender font-bold grid place-content-center text-2xl mb-10'>Your result</h2>
