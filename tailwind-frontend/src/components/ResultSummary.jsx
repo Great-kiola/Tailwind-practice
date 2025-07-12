@@ -8,9 +8,9 @@ const ResultSummary = () => {
     return (
         <>
             <div className='bg-Pale-blue h-screen flex items-center justify-center'>
-                <div className='h-150 w-170 rounded-4xl bg-White-resultSum flex '>
+                <div className='h-150 w-180 rounded-4xl bg-White-resultSum flex '>
 
-                    <div className='bg-linear-to-t from-Light-royal-blue to-Light-slate-blue rounded-4xl p-10 '>
+                    <div className='bg-linear-to-t from-Light-royal-blue to-Light-slate-blue rounded-4xl p-10 w-1/2'>
                         <h2 className='text-Light-lavender font-bold grid place-content-center text-2xl mb-10'>Your result</h2>
 
                         <div className='rounded-full bg-linear-to-t from-Persian-blue to-Violet-blue size-50 grid place-content-center'>
@@ -26,7 +26,7 @@ const ResultSummary = () => {
                         <h1 className='text-xl font-bold'>Summary</h1>
 
                         <div className='Summaries'>
-                            <div className='bg-red-500 summaries '>
+                            <div className='bg-Light-red summaries '>
                                 <div className='flex items-center'>
                                     <HiOutlineLightningBolt />
                                     <h1>Reaction</h1>
@@ -35,7 +35,7 @@ const ResultSummary = () => {
                                 <h1><span>80</span> / 100</h1>
                             </div>
 
-                            <div className='bg-orange-500 summaries'>
+                            <div className='bg-Orangey-yellow summaries'>
                                 <div className='flex items-center'>
                                     <RiBrainLine />
 
@@ -46,7 +46,7 @@ const ResultSummary = () => {
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </>
