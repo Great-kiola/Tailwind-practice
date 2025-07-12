@@ -112,3 +112,9 @@
 }
 
 /* Social Links end */
+
+
+/* Result Summary */
+.summaries{
+  @apply mb-5 flex items-center gap-10 w-full
+}
