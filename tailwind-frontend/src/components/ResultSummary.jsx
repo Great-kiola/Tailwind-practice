@@ -26,7 +26,7 @@ const ResultSummary = () => {
                         <h1 className='text-2xl font-bold font-hanken mb-5 text-Dark-gray-blue'>Summary</h1>
 
                         <div className=''>
-                            <div className='bg-Light-red summaries '>
+                            <div className='bg-Light-lavender summaries '>
                                 <div className='flex items-center gap-2'>
                                     <HiOutlineLightningBolt  className='text-xl'/>
                                     <h1 className='font-bold'>Reaction</h1>
