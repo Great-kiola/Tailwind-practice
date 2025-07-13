@@ -73,6 +73,10 @@
   --color-desatBlue: hsl(244, 38%, 16%);
   --color-softViolet: hsl(277, 64%, 61%);
 
+  --color-statsWhite: hsl(0, 0%, 100%);
+  --color-slightlyWhite: hsla(0, 0%, 100%, 0.75);
+  --color-slightlyWhiter: hsla(0, 0%, 100%, 0.6);
+
 }
 
 
@@ -130,3 +134,8 @@
 .summaries{
   @apply mb-5 flex justify-between gap-20 p-4 rounded-xl
 }
+
+/* Stats Preview */
+/* .cardStats{
+
+} */
