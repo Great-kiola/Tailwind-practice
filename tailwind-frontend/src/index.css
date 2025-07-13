@@ -50,9 +50,13 @@
 
   /* Result summary */
   --color-Light-red: hsl(0, 100%, 67%);
+  --color-red-bg:rgb(255,246,247);
   --color-Orangey-yellow: hsl(39, 100%, 56%);
+  --color-orange-bg: rgb(255,250,244);
   --color-Green-teal: hsl(166, 100%, 37%);
+  --color-green-bg: rgb(242,253,249);
   --color-Cobalt-blue: hsl(234, 85%, 45%);
+  --color-blue-bg: rgb(244,244,254);
 
   --color-Light-slate-blue: hsl(252, 100%, 67%);
   --color-Light-royal-blue: hsl(241, 81%, 54%);
@@ -119,5 +123,5 @@
 
 /* Result Summary */
 .summaries{
-  @apply mb-5 flex items-center gap-20 p-4 rounded-xl
+  @apply mb-5 flex justify-between gap-20 p-4 rounded-xl
 }
