@@ -70,6 +70,8 @@
 
   /* Stats Preview */
   --color-veryDarkBlue: hsl(233, 47%, 7%);
+  --color-desatBlue: hsl(244, 38%, 16%);
+  --color-softViolet: hsl(277, 64%, 61%);
 
 }
 
