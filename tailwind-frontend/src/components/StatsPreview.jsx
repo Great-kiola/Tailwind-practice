@@ -2,7 +2,9 @@ import React from 'react'
 
 const StatsPreview = () => {
   return (
-    <div>StatsPreview</div>
+    <>
+        <div className='bg-veryDarkBlue h-screen'></div>
+    </>
   )
 }
 
