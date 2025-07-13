@@ -6,7 +6,7 @@ const StatsPreview = () => {
         <>
             <div className='bg-veryDarkBlue h-screen flex items-center justify-center font-inter'>
 
-                <div className='cardStats bg-desatBlue w-270 flex items-center'>
+                <div className='cardStats bg-desatBlue w-270 flex items-center rounded-md'>
                     <div className='p-10 mx-10'>
                         <h1 className='text-4xl font-bold text-statsWhite mb-5'>Get <span className='text-softViolet'>Insights</span> that help your business grow.</h1>
                         <p className='text-slightlyWhite text-sm mb-20'>Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
@@ -38,7 +38,7 @@ const StatsPreview = () => {
 
                     <div class="relative">
                         <div className="absolute inset-0 bg-softViolet mix-blend-multiply"></div>
-                        <img src={employees} alt="Image" className="w-280" />
+                        <img src={employees} alt="Image" className="w-280 rounded-r-md" />
                     </div>
                 </div>
             </div>
