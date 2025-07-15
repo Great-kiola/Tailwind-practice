@@ -4,17 +4,15 @@ const Colpreview = () => {
   return (
     <>
       <div className='bg-div'>
-        <div>
-          <h1>First Div</h1>
-        </div>
-
-        <div>
-          <h2>Second Div</h2>
-        </div>
         
         <div>
-          <div>zz</div>
+          <img src="icon" alt="car icon" />
+          <h1>Sedans</h1>
+          <p>Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip</p>
+
+          <button>Learn More</button>
         </div>
+
       </div>
     </>
   )
