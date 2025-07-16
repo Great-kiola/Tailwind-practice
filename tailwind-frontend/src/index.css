@@ -86,7 +86,7 @@
   --color-Gold-500:hsl(31, 77%, 52%);
   --color-Cyan-800: hsl(184, 100%, 22%);
   --color-Green-950: hsl(179, 100%, 13%);
-  
+
   --color-Transparent-white:hsla(0, 0%, 100%, 0.75);
   --color-Gray-100: hsl(0, 0%, 95%);
 
@@ -148,7 +148,7 @@
   @apply mb-5 flex justify-between gap-20 p-4 rounded-xl
 }
 
-/* Stats Preview */
-/* .cardStats{
-
-} */
+/* Col preview */
+.cards{
+  @apply h-120 p-8 
+}
