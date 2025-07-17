@@ -29,7 +29,7 @@ const Colpreview = () => {
             <p>Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip</p>
 
             <button className=''>Learn More</button>
-          </div>
+          </div>``
         </div>
 
       </div>
