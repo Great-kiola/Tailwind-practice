@@ -15,7 +15,7 @@ const Colpreview = () => {
             </div>
 
             <div classna>
-              <button className='bg-Transparent-white py-3 rounded-full w-full'>Learn More</button>
+              <button className='bg-Transparent-white py-3 rounded-full w-full hover:bg-Dark-gray-blue hover:text-white'>Learn More</button>
             </div>
           </div>
 
