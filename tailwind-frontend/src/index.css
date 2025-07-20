@@ -150,5 +150,5 @@
 
 /* Col preview */
 .cards{
-  @apply h-120 p-8 
+  @apply h-120 p-10 
 }
