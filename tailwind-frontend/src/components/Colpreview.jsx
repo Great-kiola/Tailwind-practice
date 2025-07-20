@@ -14,7 +14,7 @@ const Colpreview = () => {
               <p className='pr-10'>Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip</p>
             </div>
 
-            <div classna>
+            <div >
               <button className='bg-Transparent-white py-3 rounded-full w-full hover:bg-Dark-gray-blue hover:text-white'>Learn More</button>
             </div>
           </div>
