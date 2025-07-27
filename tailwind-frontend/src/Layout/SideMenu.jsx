@@ -6,14 +6,14 @@ const SideMenu = ({ activeMenu }) => {
   
     const navigate = useNavigate();
 
-    const handleClick = (route) => {
-        if (route === "logout") {
-            handleLogout();
-            return;
-        }
+    // const handleClick = (route) => {
+    //     if (route === "logout") {
+    //         handleLogout();
+    //         return;
+    //     }
 
-        navigate(route)
-    }
+    //     navigate(route)
+    // }
 
     const handleLogout = () => {
         localStorage.clear();
