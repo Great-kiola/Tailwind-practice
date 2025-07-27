@@ -12,7 +12,7 @@ const SideMenu = ({ activeMenu }) => {
             return;
         }
 
-        // navigate(route)
+        navigate(route)
     }
 
     const handleLogout = () => {
@@ -23,7 +23,7 @@ const SideMenu = ({ activeMenu }) => {
     
     return ( <div className='w-64 h-[calc(100vh-61px)] bg-white border-r border-gray-200/50 p-5 sticky top-[61px] z-20'>
 
-        {SIDE_MENU_DATA.map((item, index) => (
+        {/* {SIDE_MENU_DATA.map((item, index) => (
             <button 
                 key={`menu_${index}`}
                 className={`w-full flex items-center gap-4 text-[15px] ${
@@ -34,7 +34,7 @@ const SideMenu = ({ activeMenu }) => {
                 <item.icon clasName ="" />
                 {item.label}
             </button>
-        ))}
+        ))} */}
     </div>
   )
 }
