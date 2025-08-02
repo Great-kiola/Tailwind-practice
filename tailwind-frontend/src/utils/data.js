@@ -9,26 +9,26 @@ import {
 export const SIDE_MENU_DATA = [
     {
         id: "01",
-        label: "Dashboard",
+        label: "Nft Preview",
         icon: LuLayoutDashboard,
-        path: "/dashboard",
+        path: "/nftPreview",
     },
     {
         id: "02",
-        label: "Income",
+        label: "Order Summary",
         icon: LuWalletMinimal,
-        path: "/income",
+        path: "/orderSumm",
     },
     {
         id: "03",
-        label: "Expense",
+        label: "Rating Component",
         icon: LuHandCoins,
-        path: "/expense",
+        path: "/ratingComponent",
     },
     {
         id: "04",
-        label: "Logout",
+        label: "Product Preview",
         icon: LuLogOut,
-        path: "/logout",
+        path: "/productPreview",
     }
 ]
