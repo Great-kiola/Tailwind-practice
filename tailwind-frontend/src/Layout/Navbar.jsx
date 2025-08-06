@@ -19,7 +19,7 @@ const Navbar = ({activeMenu}) => {
         )}
       </button>
 
-      {/* <h2 className='text-lg text-black'>FrontEnd Mentor Challenges</h2> */}
+      <h2 className='text-lg text-black'>FrontEnd Mentor Challenges</h2>
 
       {openSideMenu && (
         <div className='fixed top-[61px] ml-4 bg-white'>
