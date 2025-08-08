@@ -15,10 +15,10 @@ const SideMenu = ({ activeMenu }) => {
         navigate(route)
     }
 
-    const handleLogout = () => {
-        localStorage.clear();
-        navigate("/login");
-    }
+    // const handleLogout = () => {
+    //     localStorage.clear();
+    //     navigate("/login");
+    // }
 
     
     return ( <div className='w-64 h-[calc(100vh-61px)] bg-white border-r border-gray-200/50 p-5 sticky top-[61px] z-20'>
