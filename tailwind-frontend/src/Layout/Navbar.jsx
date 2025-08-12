@@ -21,11 +21,11 @@ const Navbar = ({activeMenu}) => {
 
       <h2 className='text-lg text-black'>FrontEnd Mentor Challenges</h2>
 
-      {/* {openSideMenu && (
+      {openSideMenu && (
         <div className='fixed top-[61px] ml-4 bg-white'>
           <SideMenu activeMenu={activeMenu} />
         </div>
-      )} */}
+      )}
     </div>
   )
 }
