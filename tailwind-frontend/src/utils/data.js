@@ -30,5 +30,23 @@ export const SIDE_MENU_DATA = [
         label: "Product Preview",
         icon: LuLogOut,
         path: "/productPreview",
+    },
+    {
+        id: "05",
+        label: "Social Links",
+        icon: LuLogOut,
+        path: "/socialLinks",
+    },
+    {
+        id: "06",
+        label: "Result Summary",
+        icon: LuLogOut,
+        path: "/resultSum",
+    },
+    {
+        id: "07",
+        label: "Stats Preview",
+        icon: LuLogOut,
+        path: "/statsPreview",
     }
 ]
