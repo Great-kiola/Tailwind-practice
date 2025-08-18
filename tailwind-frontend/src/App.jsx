@@ -6,6 +6,7 @@ import SocialLinks from "./components/SocialLinks"
 import ResultSummary from "./components/ResultSummary"
 import StatsPreview from "./components/StatsPreview"
 import Colpreview from "./components/Colpreview"
+import MortgageCalc from "./components/MortgageCalc"
 import Home from "./Pages/Home"
 
 import { Route, Routes } from 'react-router-dom'
@@ -24,6 +25,7 @@ const App = () => {
         <Route path= "/resultSum" element={<ResultSummary/> } />
         <Route path="/statsPreview" element= {<StatsPreview/>} />
         <Route path="/colPreview" element={<Colpreview/>} />
+        <Route path="/mortgageCalc" element={<MortgageCalc/>} />
       </Routes>
     </div>
   )

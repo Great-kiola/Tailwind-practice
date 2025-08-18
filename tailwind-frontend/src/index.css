@@ -98,6 +98,12 @@
   /* Mortgage Calculator */
   --color-LimeMortgageCalc: hsl(61, 70%, 52%);
   --color-RedMortgageCalc: hsl(4, 69%, 50%);
+  --color-WhiteMortgageCalc: hsl(0, 0%, 100%);
+  --color-SlateMorgageCalc100: hsl(202, 86%, 94%);
+  --color-SlateMorgageCalc300: hsl(203, 41%, 72%);
+  --color-SlateMorgageCalc500: hsl(200, 26%, 54%);
+  --color-SlateMortgageCalc700: hsl(200, 24%, 40%);
+  --color-SlateMortgageCalc900: hsl(202, 55%, 16%);
 
 }
 
