@@ -94,6 +94,11 @@
   --color-Transparent-white:hsla(0, 0%, 100%, 0.75);
   --color-Gray-100: hsl(0, 0%, 95%);
 
+
+  /* Mortgage Calculator */
+  --color-LimeMortgageCalc: hsl(61, 70%, 52%);
+  --color-RedMortgageCalc: hsl(4, 69%, 50%);
+
 }
 
 
