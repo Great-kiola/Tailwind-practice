@@ -11,9 +11,9 @@ const MortgageCalc = () => {
           <input type="password" name="password" id="pass" />
           <input type="password" name="password" id="pass" />
         </div>
-        <div className='w-full'>
+        {/* <div className='w-full'>
           <img src={illustratioon} alt="" />
-        </div>
+        </div> */}
       </div>
 
         
