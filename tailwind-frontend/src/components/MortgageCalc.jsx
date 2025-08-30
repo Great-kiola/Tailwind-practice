@@ -7,9 +7,9 @@ const MortgageCalc = () => {
     <div className='bg-SlateMorgageCalc100 h-screen flex items-center justify-center'>
       <div className='bg-WhiteMortgageCalc w-270 h-155 flex rounded-4xl shadow-xl'>
         <div className='w-full p-10'>
-          <div className='title'>
+          <div className='flex justify-between'>
             <h1>Mortgage Calculator</h1>
-            <p><a href="#">Clear All</a></p>
+            <p className=''><a href="#">Clear All</a></p>
           </div>
 
           <div className='formDiv'></div>
