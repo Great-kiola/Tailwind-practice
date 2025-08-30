@@ -48,16 +48,15 @@ const MortgageCalc = () => {
               </div>
 
               <label htmlFor="" className='text-sm'>Mortgage Type</label>
-              <label className='border p-4 flex gap-4 mt-4 rounded-md items-center border-SlateMortgageCalc300'>
-                <input type="checkbox" name="" id="" className='size-5 ' />
+              <label className='border p-4 flex gap-4 mt-4 rounded-md items-center border-SlateMortgageCalc300 hover:border-LimeMortgageCalc'>
+                <input id="checkbox-default" type="checkbox" value="" class="w-5 h-5 appearance-none border cursor-pointer rounded-full checked:border-indigo-500 checked:border-1 checked:bg-LimeMortgageCalc"></input>
                 <span className='font-bold'>Repayment</span>
               </label>
 
-              <label className='border p-4 flex gap-4 mt-2 rounded-md items-center border-SlateMortgageCalc300'>
-                <input type="checkbox" name="" id="" className='size-5' />
+              <label className='border p-4 flex gap-4 mt-2 rounded-md items-center border-SlateMortgageCalc300 hover:border-LimeMortgageCalc'>
+                <input id="checkbox-default" type="checkbox" value="" class="w-5 h-5 appearance-none border cursor-pointer rounded-full checked:border-indigo-500 checked:border-1 checked:bg-LimeMortgageCalc"></input>
                 <span className='font-bold'>Interest Only</span>
               </label>
-
 
 
 
@@ -65,18 +64,22 @@ const MortgageCalc = () => {
 
           </div>
 
-          <button className='bg-LimeMortgageCalc flex gap-2 p-4 rounded-full font-bold w-75 pl-10'>
+          <button className='bg-LimeMortgageCalc flex gap-2 p-4 rounded-full font-bold w-75 pl-10 hover:bg-lime-200'>
             <img src={calculator} alt="claculator icon" />
             Calculate Repayments
           </button>
 
         </div>
 
-        <div className='w-300 bg-SlateMortgageCalc900 rounded-tr-4xl rounded-bl-[120px] flex justify-center items-center flex-col rounded-br-4xl'>
-          <img src={illustratioon} alt="" className='w-50' />
+        <div className='w-300 bg-SlateMortgageCalc900 rounded-tr-4xl rounded-bl-[120px] rounded-br-4xl'>
 
-          <h1 className='text-WhiteMortgageCalc font-bold text-[22px]'>Results shown here</h1>
-          <p className='text-SlateMortgageCalc300 text-center text-md px-16 pt-3'>Complete the form and click "calculate repayments" to see what your monthly repayments would be. </p>
+          <div className='flex items-center flex-col justify-center h-full invisible'>
+            <img src={illustratioon} alt="" className='w-50' />
+
+            <h1 className='text-WhiteMortgageCalc font-bold text-[22px]'>Results shown here</h1>
+            <p className='text-SlateMortgageCalc300 text-center text-md px-16 pt-3'>Complete the form and click "calculate repayments" to see what your monthly repayments would be. </p>
+
+          </div>
         </div>
       </div>
 
