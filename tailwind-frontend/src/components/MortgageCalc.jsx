@@ -4,7 +4,7 @@ import calculator from "../assets/MortgageCalc/images/icon-calculator.svg"
 
 const MortgageCalc = () => {
   return (
-    <div className='bg-SlateMorgageCalc100 h-screen flex items-center justify-center'>
+    <div className='bg-SlateMorgageCalc100 h-screen flex items-center justify-center font-jakarta'>
       <div className='bg-WhiteMortgageCalc w-270 h-155 flex rounded-4xl shadow-xl'>
         <div className='w-full p-10'>
           <div className='flex justify-between mb-5'>
@@ -12,7 +12,14 @@ const MortgageCalc = () => {
             <p className='underline text-SlateMorgageCalc300'><a href="#">Clear All</a></p>
           </div>
 
-          <div className='formDiv'></div>
+          <div className='formDiv'>
+            <form action="" method="get">
+              <div className='flex flex-col mb-5'>
+                <label htmlFor="log-email" className="text-SlateMorgageCalc500 mb-2 before:content-['£'] before:text-red-600">Mortgage Amount</label>
+                <input type="text" id='log-email' className="w-full border-2 h-12 rounded-md border-SlateMorgageCalc300"/>
+              </div>
+            </form>
+          </div>
 
           <button className='bg-LimeMortgageCalc flex gap-2 p-4 rounded-full font-bold'>
             <img src={calculator} alt="claculator icon" />
@@ -21,10 +28,10 @@ const MortgageCalc = () => {
 
         </div>
 
-        <div className='w-230 bg-SlateMortgageCalc900 rounded-tr-4xl rounded-bl-[120px] flex justify-center items-center flex-col rounded-br-4xl'>
+        <div className='w-300 bg-SlateMortgageCalc900 rounded-tr-4xl rounded-bl-[120px] flex justify-center items-center flex-col rounded-br-4xl'>
           <img src={illustratioon} alt="" className='w-50'/>
 
-          <h1 className='text-WhiteMortgageCalc font-bold text-2xl'>Results shown here</h1>
+          <h1 className='text-WhiteMortgageCalc font-bold text-[22px]'>Results shown here</h1>
           <p className='text-SlateMorgageCalc300 text-center text-md px-16 pt-3'>Complete the form and click "calculate repayments" to see what your monthly repayments would be. </p>
         </div>
       </div>
