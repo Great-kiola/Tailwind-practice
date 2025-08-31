@@ -103,7 +103,8 @@
   --color-WhiteMortgageCalc: hsl(0, 0%, 100%);
   --color-SlateMortgageCalc100: hsl(202, 86%, 94%);
   --color-SlateMortgageCalc300: hsl(203, 41%, 72%);
-  --color-SlateMorgageCalc500: hsl(200, 26%, 54%);
+  --color-SlateMortgageCalc500: hsl(200, 26%, 54%);
+  --color-SlateMortgageCalc600: rgb(14,36,49);
   --color-SlateMortgageCalc700: hsl(200, 24%, 40%);
   --color-SlateMortgageCalc900: hsl(202, 55%, 16%);
 

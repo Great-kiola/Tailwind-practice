@@ -73,13 +73,33 @@ const MortgageCalc = () => {
 
         <div className='w-300 bg-SlateMortgageCalc900 rounded-tr-4xl rounded-bl-[120px] rounded-br-4xl'>
 
-          <div className='flex items-center flex-col justify-center h-full invisible'>
+          <div className='result p-12'>
+            <h1 className='text-WhiteMortgageCalc font-bold text-xl mb-5'>Your Results</h1>
+            <p className='text-SlateMortgageCalc700'>Your results are shown below based on the information you provided. To adjust the result
+              edit the form and click "Calculate repayments" again.
+            </p>
+
+            <div className='border-t-4 mt-10 rounded-md border-LimeMortgageCalc bg-SlateMortgageCalc600 h-70 p-10 flex flex-col justify-between'>
+              <div className='border-b-1 pb-9 border-SlateMortgageCalc300'>
+                <h2 className='text-SlateMortgageCalc700'>Your monthly repayments</h2>
+                <h1 className='text-LimeMortgageCalc font-semibold text-5xl'><span>£</span>1,797.974</h1>
+              </div>
+
+              <div>
+                <p className='text-SlateMortgageCalc700'>Total you'll repay over the term</p>
+                <h2 className='text-WhiteMortgageCalc font-bold text-xl'><span>£</span>539,322.94</h2>
+              </div>
+            </div>  
+          </div>
+
+          <div className='hidden items-center flex-col justify-center h-full'>
             <img src={illustratioon} alt="" className='w-50' />
 
             <h1 className='text-WhiteMortgageCalc font-bold text-[22px]'>Results shown here</h1>
             <p className='text-SlateMortgageCalc300 text-center text-md px-16 pt-3'>Complete the form and click "calculate repayments" to see what your monthly repayments would be. </p>
-
           </div>
+
+
         </div>
       </div>
 
