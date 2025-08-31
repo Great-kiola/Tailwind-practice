@@ -74,7 +74,7 @@ const MortgageCalc = () => {
         <div className='w-300 bg-SlateMortgageCalc900 rounded-tr-4xl rounded-bl-[120px] rounded-br-4xl'>
 
           {/* Default State */}
-          <div className='flex items-center flex-col justify-center h-full'>
+          <div className='hidden items-center flex-col justify-center h-full'>
             <img src={illustratioon} alt="" className='w-50' />
 
             <h1 className='text-WhiteMortgageCalc font-bold text-[22px]'>Results shown here</h1>
@@ -82,7 +82,7 @@ const MortgageCalc = () => {
           </div>
 
           {/* After result */}
-          <div className='hidden result p-12'>
+          <div className=' result p-12'>
             <h1 className='text-WhiteMortgageCalc font-bold text-xl mb-5'>Your Results</h1>
             <p className='text-SlateMortgageCalc700 text-sm'>Your results are shown below based on the information you provided. To adjust the result
               edit the form and click "Calculate repayments" again.
@@ -103,6 +103,8 @@ const MortgageCalc = () => {
 
         </div>
       </div>
+
+      
 
 
     </div>
