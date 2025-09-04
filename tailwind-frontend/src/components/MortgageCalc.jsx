@@ -49,12 +49,12 @@ const MortgageCalc = () => {
 
               <label htmlFor="" className='text-sm'>Mortgage Type</label>
               <label className='border p-4 flex gap-4 mt-4 rounded-md items-center border-SlateMortgageCalc300 hover:border-LimeMortgageCalc '>
-                <input id="checkbox-default" type="checkbox" value="" class="w-5 h-5 appearance-none border cursor-pointer rounded-full checked:border-indigo-500 checked:border-1 checked:bg-LimeMortgageCalc"></input>
+                <input id="checkbox-default" type="checkbox" value="" class="w-5 h-5 appearance-none border cursor-pointer rounded-full  checked:bg-LimeMortgageCalc"></input>
                 <span className='font-bold'>Repayment</span>
               </label>
 
               <label className='border p-4 flex gap-4 mt-2 rounded-md items-center border-SlateMortgageCalc300 hover:border-LimeMortgageCalc'>
-                <input id="checkbox-default" type="checkbox" value="" class="w-5 h-5 appearance-none border cursor-pointer rounded-full checked:border-indigo-500 checked:border-1 checked:bg-LimeMortgageCalc"></input>
+                <input id="checkbox-default" type="checkbox" value="" class="w-5 h-5 appearance-none border cursor-pointer rounded-full checked:bg-LimeMortgageCalc"></input>
                 <span className='font-bold'>Interest Only</span>
               </label>
 
