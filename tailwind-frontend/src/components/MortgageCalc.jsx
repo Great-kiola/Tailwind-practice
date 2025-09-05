@@ -9,6 +9,8 @@ const MortgageCalc = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    alert("Button Clicked!!")
   }
 
   return (
@@ -66,16 +68,16 @@ const MortgageCalc = () => {
                 <span className='font-bold'>Interest Only</span>
               </label>
 
-
+              <button className='bg-LimeMortgageCalc flex gap-2 p-4 rounded-full font-bold w-75 pl-10 mt-10 hover:bg-lime-200'>
+                <img src={calculator} alt="claculator icon" />
+                Calculate Repayments
+              </button>
 
             </form>
 
           </div>
 
-          <button className='bg-LimeMortgageCalc flex gap-2 p-4 rounded-full font-bold w-75 pl-10 hover:bg-lime-200'>
-            <img src={calculator} alt="claculator icon" />
-            Calculate Repayments
-          </button>
+
 
         </div>
 
@@ -112,7 +114,7 @@ const MortgageCalc = () => {
         </div>
       </div>
 
-      
+
 
 
     </div>
