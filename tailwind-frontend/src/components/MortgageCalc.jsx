@@ -30,7 +30,7 @@ const MortgageCalc = () => {
                 <span class="inline-flex items-center px-3 text-sm text-gray-900 bg-SlateMortgageCalc100 border rounded-e-0 border-SlateMortgageCalc300 border-r-0 rounded-s-md">
                   <span className='font-bold text-SlateMortgageCalc700'>£</span>
                 </span>
-                <input type="text" id="website-admin" className="rounded-none rounded-e-lg bg-gray-50 border text-gray-900  w-full text-base font-bold p-2.5 h-12 focus:border-LimeMortgageCalc border-SlateMortgageCalc300" />
+                <input type="text" id="website-admin" placeholder='Enter value greater than 200' className="rounded-none rounded-e-lg bg-gray-50 border text-gray-900  w-full text-base font-bold p-2.5 h-12 focus:border-LimeMortgageCalc border-SlateMortgageCalc300" />
               </div>
 
               <div className='flex gap-7 mb-5'>
