@@ -3,6 +3,14 @@ import illustratioon from "../assets/MortgageCalc/images/illustration-empty.svg"
 import calculator from "../assets/MortgageCalc/images/icon-calculator.svg"
 
 const MortgageCalc = () => {
+
+  console.log("Mortgage Calculator");
+
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  }
+
   return (
     <div className='bg-SlateMortgageCalc100 h-screen flex items-center justify-center font-jakarta'>
       <div className='bg-WhiteMortgageCalc w-270 h-155 flex rounded-4xl shadow-xl'>
@@ -13,7 +21,7 @@ const MortgageCalc = () => {
           </div>
 
           <div className='formDiv'>
-            <form action="" method="get">
+            <form action="" method="get" onSubmit={handleSubmit}>
 
               <label htmlFor="log-email" className="text-SlateMortgageCalc700 font-medium text-sm">Mortgage Amount</label>
               <div class="flex mt-2 mb-5">
