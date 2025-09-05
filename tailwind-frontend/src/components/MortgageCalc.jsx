@@ -1,16 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import illustratioon from "../assets/MortgageCalc/images/illustration-empty.svg"
 import calculator from "../assets/MortgageCalc/images/icon-calculator.svg"
 
 const MortgageCalc = () => {
 
-  console.log("Mortgage Calculator");
+
+  const [isVisible, setIsVisible] = useState(false)
+
+  function handleClick() {
+    setIsVisible(!isVisible)
+    console.log("Hello!")
+  }
 
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    alert("Button Clicked!!")
   }
 
   return (
@@ -68,7 +72,7 @@ const MortgageCalc = () => {
                 <span className='font-bold'>Interest Only</span>
               </label>
 
-              <button className='bg-LimeMortgageCalc flex gap-2 p-4 rounded-full font-bold w-75 pl-10 mt-10 hover:bg-lime-200'>
+              <button onClick={handleClick} className='bg-LimeMortgageCalc flex gap-2 p-4 rounded-full font-bold w-75 pl-10 mt-10 hover:bg-lime-200'>
                 <img src={calculator} alt="claculator icon" />
                 Calculate Repayments
               </button>
@@ -92,24 +96,28 @@ const MortgageCalc = () => {
           </div>
 
           {/* After result */}
-          <div className='hidden result p-12'>
-            <h1 className='text-WhiteMortgageCalc font-bold text-xl mb-5'>Your Results</h1>
-            <p className='text-SlateMortgageCalc700 text-sm'>Your results are shown below based on the information you provided. To adjust the result
-              edit the form and click "Calculate repayments" again.
-            </p>
+          {isVisible &&
+          
+            <div className='hidden result p-12'>
+              <h1 className='text-WhiteMortgageCalc font-bold text-xl mb-5'>Your Results</h1>
+              <p className='text-SlateMortgageCalc700 text-sm'>Your results are shown below based on the information you provided. To adjust the result
+                edit the form and click "Calculate repayments" again.
+              </p>
 
-            <div className='border-t-4 mt-10 rounded-md border-LimeMortgageCalc bg-SlateMortgageCalc600 h-70 p-10 flex flex-col justify-between'>
-              <div className='border-b-1 pb-9 border-SlateMortgageCalc300'>
-                <h2 className='text-SlateMortgageCalc700'>Your monthly repayments</h2>
-                <h1 className='text-LimeMortgageCalc font-semibold text-5xl mt-2'><span>£</span>1,797.974</h1>
-              </div>
+              <div className='border-t-4 mt-10 rounded-md border-LimeMortgageCalc bg-SlateMortgageCalc600 h-70 p-10 flex flex-col justify-between'>
+                <div className='border-b-1 pb-9 border-SlateMortgageCalc300'>
+                  <h2 className='text-SlateMortgageCalc700'>Your monthly repayments</h2>
+                  <h1 className='text-LimeMortgageCalc font-semibold text-5xl mt-2'><span>£</span>1,797.974</h1>
+                </div>
 
-              <div>
-                <p className='text-SlateMortgageCalc700 mb-2'>Total you'll repay over the term</p>
-                <h2 className='text-WhiteMortgageCalc font-bold text-xl'><span>£</span>539,322.94</h2>
+                <div>
+                  <p className='text-SlateMortgageCalc700 mb-2'>Total you'll repay over the term</p>
+                  <h2 className='text-WhiteMortgageCalc font-bold text-xl'><span>£</span>539,322.94</h2>
+                </div>
               </div>
             </div>
-          </div>
+          }
+
 
         </div>
       </div>
