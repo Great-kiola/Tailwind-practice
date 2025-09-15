@@ -62,10 +62,10 @@ const MortgageCalc = () => {
               </div>
 
               <label htmlFor="" className='text-sm'>Mortgage Type</label>
-              {/* <label className='border p-4 flex gap-4 mt-4 rounded-md items-center border-SlateMortgageCalc300 hover:border-LimeMortgageCalc '>
+              <label className='border p-4 flex gap-4 mt-4 rounded-md items-center border-SlateMortgageCalc300 hover:border-LimeMortgageCalc '>
                 <input id="checkbox-default" type="checkbox" value="" class="w-5 h-5 appearance-none border cursor-pointer rounded-full  checked:bg-LimeMortgageCalc"></input>
                 <span className='font-bold'>Repayment</span>
-              </label> */}
+              </label>
 
               <label className='border p-4 flex gap-4 mt-2 rounded-md items-center border-SlateMortgageCalc300 hover:border-LimeMortgageCalc'>
                 <input id="checkbox-default" type="checkbox" value="" class="w-5 h-5 appearance-none border cursor-pointer rounded-full checked:bg-LimeMortgageCalc"></input>
@@ -98,7 +98,7 @@ const MortgageCalc = () => {
           {/* After result */}
           {isVisible &&
           
-            <div className='hidden result p-12'>
+            <div className=' result p-12'>
               <h1 className='text-WhiteMortgageCalc font-bold text-xl mb-5'>Your Results</h1>
               <p className='text-SlateMortgageCalc700 text-sm'>Your results are shown below based on the information you provided. To adjust the result
                 edit the form and click "Calculate repayments" again.
