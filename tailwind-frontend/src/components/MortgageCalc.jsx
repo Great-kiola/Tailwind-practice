@@ -12,6 +12,7 @@ const MortgageCalc = () => {
     setIsVisible(!isVisible)
     console.log("Hello!")
     setisDefault(!isDefault)
+
   }
 
 
