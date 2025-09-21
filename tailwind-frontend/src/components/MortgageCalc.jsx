@@ -6,10 +6,12 @@ const MortgageCalc = () => {
 
 
   const [isVisible, setIsVisible] = useState(false)
+  const [isDefault, setisDefault] = useState(true)
 
   function handleClick() {
     setIsVisible(!isVisible)
     console.log("Hello!")
+    setisDefault(!isDefault)
   }
 
 
@@ -88,17 +90,21 @@ const MortgageCalc = () => {
         <div className='w-300 bg-SlateMortgageCalc900 rounded-tr-4xl rounded-bl-[120px] rounded-br-4xl'>
 
           {/* Default State */}
-          <div className='flex items-center flex-col justify-center h-full'>
-            <img src={illustratioon} alt="" className='w-50' />
+          {isDefault && 
+          
+            <div className='flex items-center flex-col justify-center h-full'>
+              <img src={illustratioon} alt="" className='w-50' />
 
-            <h1 className='text-WhiteMortgageCalc font-bold text-[22px]'>Results shown here</h1>
-            <p className='text-SlateMortgageCalc300 text-center text-md px-16 pt-3'>Complete the form and click "calculate repayments" to see what your monthly repayments would be. </p>
-          </div>
+              <h1 className='text-WhiteMortgageCalc font-bold text-[22px]'>Results shown here</h1>
+              <p className='text-SlateMortgageCalc300 text-center text-md px-16 pt-3'>Complete the form and click "calculate repayments" to see what your monthly repayments would be. </p>
+            </div>
+          
+          }
 
           {/* After result */}
           {isVisible &&
           
-            <div className=' result p-12'>
+            <div className='result p-12'>
               <h1 className='text-WhiteMortgageCalc font-bold text-xl mb-5'>Your Results</h1>
               <p className='text-SlateMortgageCalc700 text-sm'>Your results are shown below based on the information you provided. To adjust the result
                 edit the form and click "Calculate repayments" again.
