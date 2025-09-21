@@ -98,24 +98,24 @@ const MortgageCalc = () => {
           {/* After result */}
           {isVisible &&
           
-            // <div className=' result p-12'>
-            //   <h1 className='text-WhiteMortgageCalc font-bold text-xl mb-5'>Your Results</h1>
-            //   <p className='text-SlateMortgageCalc700 text-sm'>Your results are shown below based on the information you provided. To adjust the result
-            //     edit the form and click "Calculate repayments" again.
-            //   </p>
+            <div className=' result p-12'>
+              <h1 className='text-WhiteMortgageCalc font-bold text-xl mb-5'>Your Results</h1>
+              <p className='text-SlateMortgageCalc700 text-sm'>Your results are shown below based on the information you provided. To adjust the result
+                edit the form and click "Calculate repayments" again.
+              </p>
 
-            //   <div className='border-t-4 mt-10 rounded-md border-LimeMortgageCalc bg-SlateMortgageCalc600 h-70 p-10 flex flex-col justify-between'>
-            //     <div className='border-b-1 pb-9 border-SlateMortgageCalc300'>
-            //       <h2 className='text-SlateMortgageCalc700'>Your monthly repayments</h2>
-            //       <h1 className='text-LimeMortgageCalc font-semibold text-5xl mt-2'><span>£</span>1,797.974</h1>
-            //     </div>
+              <div className='border-t-4 mt-10 rounded-md border-LimeMortgageCalc bg-SlateMortgageCalc600 h-70 p-10 flex flex-col justify-between'>
+                <div className='border-b-1 pb-9 border-SlateMortgageCalc300'>
+                  <h2 className='text-SlateMortgageCalc700'>Your monthly repayments</h2>
+                  <h1 className='text-LimeMortgageCalc font-semibold text-5xl mt-2'><span>£</span>1,797.974</h1>
+                </div>
 
-            //     <div>
-            //       <p className='text-SlateMortgageCalc700 mb-2'>Total you'll repay over the term</p>
-            //       <h2 className='text-WhiteMortgageCalc font-bold text-xl'><span>£</span>539,322.94</h2>
-            //     </div>
-            //   </div>
-            // </div>
+                <div>
+                  <p className='text-SlateMortgageCalc700 mb-2'>Total you'll repay over the term</p>
+                  <h2 className='text-WhiteMortgageCalc font-bold text-xl'><span>£</span>539,322.94</h2>
+                </div>
+              </div>
+            </div>
           }
 
 
